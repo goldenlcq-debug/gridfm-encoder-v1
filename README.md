@@ -4,6 +4,12 @@ Frozen weights of **encoder V1**, the shared graph encoder of our unified power-
 This repository distributes the weights and the input-normalization statistics only. The model definition
 and data-assembly code are **not** part of this release.
 
+## Code
+
+The encoder model definition, pretraining and probe code, the task-specific reasoners that read this encoder and
+their weights are published at <https://github.com/goldenlcq-debug/unified-grid-representation>.
+A loading example for the weights in this repository is `encoder/examples/encode_with_public_weights.py` there.
+
 ## Download
 
 | File | Size | SHA-256 |
